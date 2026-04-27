@@ -1,0 +1,33 @@
+
+#py -3.11 -m venv stock_rec_env   for windows
+#python3.11 -m venv stock_rec_env   for linux
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# LangChain & LangGraph
+langchain==0.1.0
+langchain-google-genai==0.0.6
+langgraph==0.0.20
+langchain-community==0.0.10
+
+# Web Search & Tools
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Frontend
+streamlit==1.29.0
+plotly==5.18.0
+pandas==2.1.4
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.25.2
+aiohttp==3.9.1
+
+# Logging & Monitoring
+python-json-logger==2.0.7
